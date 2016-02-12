@@ -1,0 +1,20 @@
+<p> </p> 
+<table style="width: 100%; background-color: #5ed22c;" border="0"> 
+ <tbody> 
+  <tr> 
+   <td style="text-align: center;" width="50%"><a href="/problems/ANARC05B/en/">English</a></td> 
+   <td style="text-align: center;" width="50%"><a href="/problems/ANARC05B/vn/">Vietnamese</a></td> 
+  </tr> 
+ </tbody> 
+</table> 
+<p></p> 
+<p>Two ﬁnite, strictly increasing, integer sequences are given. Any common integer between the two sequences constitute an intersection point. Take for example the following two sequences where intersection points are<br>printed in bold:<br>First= 3 5 <strong>7</strong> 9 20 <strong>25</strong> 30 40 <strong>55</strong> 56 <strong>57</strong> 60 62<br>Second= 1 4 <strong>7</strong> 11 14 <strong>25</strong> 44 47 <strong>55</strong> <strong>57</strong> 100<br>You can ‘walk” over these two sequences in the following way:<br>1. You may start at the beginning of any of the two sequences. Now start moving forward.<br>2. At each intersection point, you have the choice of either continuing with the same sequence you’re currently on, or switching to the other sequence.<br>The objective is ﬁnding a path that produces the maximum sum of data you walked over. In the above example, the largest possible sum is 450  which is the result of adding 3, 5, 7, 9, 20, 25, 44, 47, 55, 56, 57, 60, and 62</p> 
+<h3>Input</h3> 
+<p>Your program will be tested on a number of test cases. Each test case will be speciﬁed on two separate lines. Each line denotes a sequence and is speciﬁed using the following format:</p> 
+<pre>                 n  v1 v2 ... vn</pre> 
+<p>Where n is the length of the sequence and vi is the ith element in that sequence. Each sequence will have at least one element but no more than 10,000. All elements are between -10,000 and 10,000 (inclusive). <br>The last line of the input includes a single zero, which is not part of the test cases.</p> 
+<h3>Output</h3> 
+<p>For each test case, write on a separate line, the largest possible sum that can be produced.</p> 
+<h3>Sample</h3> 
+<pre>input <br> <br>13 3 5 7 9 20 25 30 40 55 56 57 60 62<br>11 1 4 7 11 14 25 44 47 55 57 100<br>4 -5 100 1000 1005<br>3 -12 1000 1001<br>0<br>output <br> <br>450<br>2100<br></pre> 
+<p> </p>

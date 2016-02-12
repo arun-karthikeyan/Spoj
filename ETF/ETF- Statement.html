@@ -1,0 +1,64 @@
+<!--
+<p>{assign var="code" value="ETF"} {if $par==""} {assign var=par value=$locale} {/if}</p>
+<table class="problems" style="width: 100%;" border="0">
+<tbody>
+<tr class="navigation">
+<td width="50%"><a href="{$base}problems/{$code}/en/" mce_href="{$base}problems/{$code}/en/">English</a></td>
+<td width="50%"><a href="{$base}problems/{$code}/vn/" mce_href="{$base}problems/{$code}/vn/">Vietnamese</a></td>
+</tr>
+</tbody>
+</table>
+<p>{if $par=="en"} {literal}</p>
+--> 
+<p>In number theory, the totient φ of a positive integer n is defined to be the number of positive integers less than or equal to n that are coprime to n.</p> 
+<p>Given an integer n (1 &lt;= n &lt;= 10^6). Compute the value of the totient φ.</p> 
+<h3>Input</h3> 
+<p>First line contains an integer T, the number of test cases. (T &lt;= 20000)</p> 
+<p>T following lines, each contains an integer n.</p> 
+<h3>Output</h3> 
+<p>T lines, one for the result of each test case.</p> 
+<h3>Example</h3> 
+<pre><strong>Input:</strong>
+5
+1
+2
+3
+4
+5
+
+<strong>Output:</strong>
+1
+1
+2
+2
+4
+
+</pre> 
+<!--
+<p>{/literal}{elseif ($par=="vn" || $par=="")}{literal}</p>
+<p>Trong số học, h&agrave;m Ơ-le <img src="https://vn.spoj.pl/SPOJVN/content/phi.jpg" mce_src="https://vn.spoj.pl/SPOJVN/content/phi.jpg" alt="" /> của một số nguy&ecirc;n dương n được định nghĩa l&agrave; số lượng c&aacute;c số nguy&ecirc;n dương nhỏ hơn hoặc bằng n v&agrave; nguy&ecirc;n tố c&ugrave;ng nhau với n.</p>
+<p>Cho số nguy&ecirc;n dương n (1 &lt;= n &lt;= 10^6). T&iacute;nh gi&aacute; trị của h&agrave;m Ơ-le <img src="https://vn.spoj.pl/SPOJVN/content/phi.jpg" mce_src="https://vn.spoj.pl/SPOJVN/content/phi.jpg" alt="" />.</p>
+<h3>Input</h3>
+<p>D&ograve;ng đầu chứa số nguy&ecirc;n T l&agrave; số test (T &lt;= 20000)</p>
+<p>T d&ograve;ng tiếp theo, mỗi d&ograve;ng chứa một số nguy&ecirc;n n.</p>
+<h3>Output</h3>
+<p>T d&ograve;ng, mỗi d&ograve;ng ghi kết quả của test tương ứng.</p>
+<h3>Example</h3>
+<pre><strong>Input:</strong>
+5
+1
+2
+3
+4
+5
+
+<strong>Output:</strong>
+1
+1
+2
+2
+4
+
+</pre>
+<p>{/literal} {/if}</p>
+-->
